@@ -6,10 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mady-madhu/central-config/tree/master/employeeService/
+          uri: https://github.com/mady-madhu/central-config.git
+          searchPaths: '{application}'
           default-label: master
 management:
-  endpoints:
     web:
       exposure:
         include: "*"
